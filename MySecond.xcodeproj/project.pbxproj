@@ -14,6 +14,7 @@
 		25BABEDC29EB93CC00DE13BB /* MySecondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BABEDB29EB93CC00DE13BB /* MySecondTests.swift */; };
 		25BABEE629EB93CC00DE13BB /* MySecondUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BABEE529EB93CC00DE13BB /* MySecondUITests.swift */; };
 		25BABEE829EB93CC00DE13BB /* MySecondUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BABEE729EB93CC00DE13BB /* MySecondUITestsLaunchTests.swift */; };
+		25BABEF529EB99F300DE13BB /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BABEF429EB99F300DE13BB /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		25BABEE129EB93CC00DE13BB /* MySecondUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySecondUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BABEE529EB93CC00DE13BB /* MySecondUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySecondUITests.swift; sourceTree = "<group>"; };
 		25BABEE729EB93CC00DE13BB /* MySecondUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySecondUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25BABEF429EB99F300DE13BB /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				25BABECC29EB93CB00DE13BB /* ContentView.swift */,
 				25BABECE29EB93CC00DE13BB /* Assets.xcassets */,
 				25BABED029EB93CC00DE13BB /* Preview Content */,
+				25BABEF429EB99F300DE13BB /* SecondView.swift */,
 			);
 			path = MySecond;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25BABEF529EB99F300DE13BB /* SecondView.swift in Sources */,
 				25BABECD29EB93CB00DE13BB /* ContentView.swift in Sources */,
 				25BABECB29EB93CB00DE13BB /* MySecondApp.swift in Sources */,
 			);
